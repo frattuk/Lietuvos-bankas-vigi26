@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.white-header {
+   
+    display: flex;
+    justify-content:right;
+    padding: 10px 16px;
+    margin-right: 50px;
+    
+}
+.white-header a {
+    color:gray;
+    font-size: 14px;
+    margin: 0 20px
+    
+
+}
+
+
+.green-header {
+ 
+ background-color: rgb(52, 99, 52);
+ height: 70px;
+ display:flex;
+ justify-content:space-between;
+ align-items: center;
+ 
+ }
+
+ .green-header a {
+    color: white;
+    font-size: 16px;
+    margin: 0 12px;
+
+ }
+ .green-header a:last-child {
+     margin-right: 100px;
+ }
+
+ .green-header img {
+     width: 200px;
+     margin-left: 110px;
+     margin-right: 80px;
+ }
