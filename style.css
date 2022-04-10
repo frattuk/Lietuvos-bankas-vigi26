@@ -21,6 +21,10 @@ a {
     
 
 }
+.white-header a:last-child {
+    border-left: 1px solid gray;
+    padding-left: 6px;
+}
 
 
 .green-header {
@@ -40,8 +44,13 @@ a {
 
  }
  .green-header a:last-child {
+     
      margin-right: 100px;
- }
+     border-left: 1px solid gray;
+     padding-left: 10px;
+     
+     
+    }
 
  .green-header img {
      width: 200px;
@@ -98,9 +107,19 @@ a {
     font-size: 17px;
     align-items: center;
     border-bottom: 1px solid gray;
-    padding-left: 84px;
-    margin: 16px 32px;
-     }
+    padding-left: 80px;
+    margin: 16px 
+}
+     .popular a {
+         font-weight: bold;
+         color:black;
+         margin: 0 18px;
+}
+
+     .popular a:first-child {
+         color: rgb(39, 100, 39)
+
+}
 
  .navigation {
     display:flex;
@@ -110,8 +129,21 @@ a {
     
 
 }
-.link {
-    height: 100%;
+
+.link2 {
+    border-left: 1px solid gray;
+    height: 150px;
+
+}
+
+ul:last-child {
+    border-left: 1px solid gray;
+    height: 150px;
+
+}
+
+.link, .link2 {
+    
     list-style-type: none;
     cursor: pointer;
     font-size: 20px;
