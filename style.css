@@ -30,7 +30,6 @@ a {
 .green-header {
  
  background-color: rgb(52, 99, 52);
- height: 70px;
  display:flex;
  justify-content:space-between;
  align-items: center;
@@ -38,6 +37,7 @@ a {
  }
 
  .green-header a {
+     padding: 16px;
     color: white;
     font-size: 16px;
     margin: 0 12px;
@@ -45,7 +45,6 @@ a {
  }
  .green-header a:last-child {
      
-     margin-right: 100px;
      border-left: 1px solid gray;
      padding-left: 10px;
      
@@ -58,9 +57,10 @@ a {
      margin-right: 80px;
  }
  .green-header a:hover {
-     
+    
      background-color: rgb(34, 63, 34)
  }
+
  .cards {
      display: flex;
      justify-content: space-between;
@@ -260,15 +260,16 @@ h2 {
 
 }
 footer {
+    display: flex;
     background-color: rgb(49, 46, 46);
     padding: 8px;
 }
 
 footer a {
-    text-align: center;
+    
     color: gray;
     text-decoration-line:underline;
-    margin: 0 32px
+   
 
 }
 footer a:hover {
@@ -280,6 +281,24 @@ h5 {
    
 }
 
+.bottom-container {
+    display: flex;
+    padding: 40px;
+
+}
+
+.bottom-container  > * {
+width: 20%;
+}
+
+.footer-left-side {
+    width: 70%;
+}
+
+.footer-right-side {
+    width: 30%;
+    text-align: right;
+}
 
    
 
